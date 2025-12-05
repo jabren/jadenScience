@@ -164,7 +164,7 @@ More images = better accuracy.
 
 ---
 
-# 🧾 Science Fair Explanation (Simple)
+# 🧾 Science Fair Explanation
 
 > We trained an AI model to recognize whether a plant leaf is healthy or shows cancer signs.  
 > The model learns by analyzing many example images.  
@@ -173,7 +173,6 @@ More images = better accuracy.
 
 ---
 
-# ⭐ If You Get Errors
 
 Make sure:
 
@@ -186,5 +185,5 @@ If you need help, open an issue or contact the project author.
 
 ---
 
-# 🎉 Enjoy exploring AI and plant science!
+
 
