@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Installer / pip
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# C extensions, wheels, caches
+*.so
+*.pyd
+*.dll
+*.egg
+*.whl
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# SQLite / local settings
+*.sqlite3
+db.sqlite3
+local_settings.py
+
+# Misc
+.mypy_cache/
+.pyre/
+.pytype/
