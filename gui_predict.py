@@ -33,8 +33,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 # Model directory and possible filenames
 MODEL_DIR = SCRIPT_DIR / "model"
 POSSIBLE_MODEL_NAMES = [
-    "plant_cancer_yesno.keras",  # new Keras format
-    "plant_cancer_yesno.h5",     # older H5 format
+    "plant_cancer_yesno.keras"    # older H5 format
 ]
 
 # Try to find an existing model file

@@ -1,5 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
+from tensorflow.keras import layers
 import matplotlib.pyplot as plt
 
 # -----------------------------------------------------------
@@ -128,8 +129,9 @@ history_fine = model.fit(
 # -----------------------------------------------------------
 # SAVE TRAINED MODEL
 # -----------------------------------------------------------
-model.save("model/plant_cancer_yesno.h5")
-print("Model saved to model/plant_cancer_yesno.h5")
+model.save("model/plant_cancer_yesno.keras")
+print("Model saved to model/plant_cancer_yesno.keras")
+
 
 # -----------------------------------------------------------
 # PLOT ACCURACY GRAPHS
